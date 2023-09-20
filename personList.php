@@ -8,14 +8,16 @@ require 'ustHtml.php';
 
     <div class="container">
       <div class="row">
-      <div class='row text-center'>
+      <div class='row justify-content-center text-center'>
+        <div class="col-sm-4 col-md-6 col-lg-8">
   <h1 class='alert alert-primary mt-2'>Personel Yönetimi</h1>
+  </div>
 </div>
 
 <div class='row text-end'>
-  <p><a href='insert.php' class="btn btn-primary btn-sm "> Yeni Personel Ekle </a></p>
+  <p><a href='addPerson.php' class="btn btn-warning btn-sm "> Add New Person </a></p>
 </div>
-  
+
    <!-- tablo ile personel listeleme -->
 <table class="table table-bordered table-striped">
   <thead>
@@ -32,7 +34,6 @@ require 'ustHtml.php';
   </thead>
   <tbody>
   </div>
-    </div>
 
 
 
@@ -63,6 +64,7 @@ require 'ustHtml.php';
 
   </tbody>
 </table>
+</div>
   <?php
   require 'altHtml.php';
   ?>
