@@ -5,12 +5,14 @@ require 'ustHtml.php';
   <h1 class='alert alert-primary'>New Person Form</h1>
 </div>
 <?php 
+if (isset($_POST['form_name'])) {
 echo '
 <div class="alert text-center alert-success alert-dismissible fade show" role="alert">
-  Kullanıcı eklendi...
+Person Added...
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 ';
+}
 ?>
 <div class="container">
   <div class="row">
