@@ -1,5 +1,6 @@
 <?php
-$activePage='home';
+$activeTitle="SeKaans";
+$activePage='index';
 require 'ustHtml.php';
 ?>
     <!--Welcome Message Start-->
