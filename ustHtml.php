@@ -33,7 +33,7 @@
               <a class="nav-link  <?= ($activePage == 'formList') ? 'active':''; ?>" href="forms.php">Form List</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Phone Number List</a>
+                <a class="nav-link  <?= ($activePage == 'phoneNumberList') ? 'active':''; ?>" href="phoneNumberList.php">Phone Number List</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Register</a>
