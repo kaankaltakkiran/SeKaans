@@ -23,8 +23,10 @@ if (count($dosyalar) === 0) {
   ';
 } else {
   echo '
+  <div class="container">
   <div class="alert text-center alert-success mt-3" role="alert">
   Uploaded Files
+  </div>
   </div>
   ';
   echo "<ul>";

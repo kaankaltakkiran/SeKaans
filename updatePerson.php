@@ -49,7 +49,7 @@ $user  = $users[0];
 ?>
 
     <div class='row text-center'>
-      <h1 class='alert alert-primary mt-3'>Kayıt Ekleme</h1>
+      <h1 class='alert alert-primary mt-3'>Add Record</h1>
     </div>
     <div class="container">
   <div class="row">
@@ -93,7 +93,7 @@ Person Updated...
               <i class="bi bi-send"></i>
               </a> -->
               <button type="submit" class="btn btn-success">Update Person</button>
-              <a href='personList.php' class='btn btn-warning mt-1'>Geri Dön</a>
+              <a href='personList.php' class='btn btn-warning mt-1'>Back To Person List</a>
             </div>
 </div>
 </div>
