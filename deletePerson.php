@@ -1,4 +1,6 @@
 <?php
+$activeTitle="Person List";
+$activePage='personList';
 require 'ustHtml.php';
 
 //Sesion konusu gelince kendi idsini silememeli.

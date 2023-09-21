@@ -1,6 +1,9 @@
 <?php
+$activeTitle="Person List";
+$activePage='personList';
 require 'ustHtml.php';
 ?>
+
 <div class='row text-center offset-3 col-6 mt-3'>
   <h1 class='alert alert-primary'>New Person Form</h1>
 </div>

@@ -27,7 +27,7 @@
               </li>
               <a class="nav-link  <?= ($activePage == 'personList') ? 'active':''; ?>" href="personList.php">Person List</a>
               <li class="nav-item">
-                <a class="nav-link" href="#">Food List</a>
+                <a class="nav-link  <?= ($activePage == 'foodList') ? 'active':''; ?>" href="foodList.php">Food List</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Form List</a>
