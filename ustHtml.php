@@ -36,6 +36,9 @@
                 <a class="nav-link  <?= ($activePage == 'phoneNumberList') ? 'active':''; ?>" href="phoneNumberList.php">Phone Number List</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link  <?= ($activePage == 'requestList') ? 'active':''; ?>" href="requestList.php">Request List</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">Register</a>
               </li>
               <li class="nav-item">
