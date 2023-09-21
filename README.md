@@ -23,7 +23,12 @@ Welcome to **SeKaans Company**
 ![Screenshot_7](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/15bfc224-42d0-4486-b4ff-1f48c27c3d75)
 
 
-![Screenshot_8](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/1cb94163-ff5d-45df-9e8f-69573e0910ba)
+![Screenshot_8](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/ea49cbe2-631f-44dd-8832-fd806b2bed71)
 
 
-![Screenshot_9](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/1d79b00f-a6a2-4e25-95c4-b3591efc6418)
+![Screenshot_9](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/2d3b2301-7bc4-443f-b97b-7fccd01f41c2)
+
+
+![Screenshot_10](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/01281155-bb6e-4591-9a2b-addabd9fcb65)
+
+
