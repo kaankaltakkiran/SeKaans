@@ -30,7 +30,7 @@
                 <a class="nav-link  <?= ($activePage == 'foodList') ? 'active':''; ?>" href="foodList.php">Food List</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Form List</a>
+              <a class="nav-link  <?= ($activePage == 'formList') ? 'active':''; ?>" href="forms.php">Form List</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Phone Number List</a>
