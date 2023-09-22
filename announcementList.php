@@ -4,7 +4,7 @@ $activePage='announcementList';
 require 'ustHtml.php';
 ?>
 <div class="container">
-  <div class="row">
+  <div class="row justify-content-center">
 
 
 <div class='row text-center'>

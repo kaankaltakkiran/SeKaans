@@ -34,7 +34,7 @@ require 'ustHtml.php';
             <div class="card-body">
               <h5 class="card-title">Food List</h5>
               <p class="card-text">Only Admin Access</p>
-              <a href="#" class="btn btn-danger mt-1">Food Management</a>
+              <a href="foodManagement.php" class="btn btn-danger mt-1">Food Management</a>
             </div>
           </div>
       </div>
