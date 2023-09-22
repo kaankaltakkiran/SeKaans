@@ -38,7 +38,7 @@ require 'ustHtml.php';
       echo "
         <tr>
           <th>{$DuyuruTarihi}</th>
-          <td><a href='duyuru.goster.php?id={$announcement['announcementid']}'>{$announcement['title']}</a></td>
+          <td><a href='announcement.php?id={$announcement['announcementid']}'>{$announcement['title']}</a></td>
       </tr> 
       ";
     }
