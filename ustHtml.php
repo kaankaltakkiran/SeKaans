@@ -39,6 +39,9 @@
                 <a class="nav-link  <?= ($activePage == 'requestList') ? 'active':''; ?>" href="requestList.php">Request List</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link  <?= ($activePage == 'announcementList') ? 'active':''; ?>" href="announcementList.php">Announcement List</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">Register</a>
               </li>
               <li class="nav-item">
