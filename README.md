@@ -36,3 +36,8 @@ Welcome to **SeKaans Company**
 
 
 ![Screenshot_11](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/a3378df4-b9a0-469f-a2c5-12491364909e)
+
+
+![Screenshot_13](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/6371f456-be48-44b9-9637-9b81fb470875)
+
+
