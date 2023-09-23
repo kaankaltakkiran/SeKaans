@@ -42,7 +42,7 @@
                 <a class="nav-link  <?= ($activePage == 'announcementList') ? 'active':''; ?>" href="announcementList.php">Announcement List</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
+              <a class="nav-link  <?= ($activePage == 'register') ? 'active':''; ?>" href="register.php">Register</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Login</a>
