@@ -1,3 +1,7 @@
+<?php
+@session_start();
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -22,6 +26,7 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <?php if ($_SESSION['isLogin'] == 1) { ?>
               <li class="nav-item">
               <a class="nav-link  <?= ($activePage == 'index') ? 'active':''; ?>" href="index.php">Home</a>
               </li>
@@ -42,14 +47,20 @@
                 <a class="nav-link  <?= ($activePage == 'announcementList') ? 'active':''; ?>" href="announcementList.php">Announcement List</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="logout.php">Logout</a>
+              </li>
+              <?php } ?>
+              <?php if ($_SESSION['isLogin'] == 0) { ?>
+              <li class="nav-item">
+              <a class="nav-link  <?= ($activePage == 'index') ? 'active':''; ?>" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
               <a class="nav-link  <?= ($activePage == 'register') ? 'active':''; ?>" href="register.php">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+              <a class="nav-link  <?= ($activePage == 'login') ? 'active':''; ?>" href="login.php">Login</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Logout</a>
-              </li>
+              <?php } ?>
             </ul>
           </div>
         </div>
