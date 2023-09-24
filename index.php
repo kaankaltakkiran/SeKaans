@@ -19,6 +19,7 @@ require 'loginControl.php';
       </div>
         <!--Welcome Message End-->
     <!--  Section Start -->
+    <?php if($_SESSION['rol']==2){ ?>
       <div class="container-fluid my-3 ">
         <div class="row g-4">
           <div class="col-sm-6 col-md-4 col-lg-3">
@@ -57,7 +58,7 @@ require 'loginControl.php';
         <div class="card-body">
           <h5 class="card-title">Phone Number List</h5>
           <p class="card-text">Only Admin Access</p>
-          <a href="#" class="btn btn-danger mt-1">Phone Number Management</a>
+          <a href="phoneNumberManagement.php" class="btn btn-danger mt-1">Phone Number Management</a>
         </div>
       </div>
   </div>
@@ -65,6 +66,7 @@ require 'loginControl.php';
           </div>
       </div>
       <!--  Section End -->
+      <?php } ?>
 
 <?php
 require 'altHtml.php';
