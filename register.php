@@ -9,57 +9,81 @@ require 'ustHtml.php';
 </div>
 <?php 
 if (isset($_POST['form_name'])) {
-echo '
-<div class="alert text-center alert-success alert-dismissible fade show" role="alert">
-Record Successful!!!
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-';
+  header("location: login.php");
 }
 ?>
 <div class="container">
+<form method="POST" class="needs-validation"novalidate>
   <div class="row">
+    
     <div class="col-6">
-      <form method="POST">
+   
   <div class="form-floating mb-3">
-  <input type="text" name="form_name" class="form-control" id="ınputName" placeholder="Plase Write Name">
+  <input type="text" name="form_name" class="form-control" id="ınputName" placeholder="Plase Write Name" required>
   <label for="ınputName">Name</label>
+  <div class="invalid-feedback">
+  Plase Write Name
+    </div>
 </div>
 <div class="form-floating mb-3">
-  <input type="email" name="form_email" class="form-control" id="ınputEmail" placeholder="Plase Write Email">
+  <input type="email" name="form_email" class="form-control" id="ınputEmail" placeholder="Plase Write Email" required>
   <label for="ınputEmail">Email address</label>
+  <div class="invalid-feedback">
+  Plase Write Email
+    </div>
 </div>
 <div class="form-floating mb-3">
-  <input type="password" name="form_password" class="form-control" id="ınpuPassword" placeholder="Plase Write Password">
+  <input type="password" name="form_password" class="form-control" id="ınpuPassword" placeholder="Plase Write Password" required>
   <label for="ınputEmail">Password</label>
+  <div class="invalid-feedback">
+  Plase Write Password
+    </div>
 </div>
 <div class="form-floating mb-3">
-  <input type="date" name="form_date" class="form-control" id="ınputDate" placeholder="Plase Write Birthday">
+  <input type="date" name="form_date" class="form-control" id="ınputDate" placeholder="Plase Write Birthday" required>
   <label for="ınputEmail">Birthday</label>
+  <div class="invalid-feedback">
+  Plase Write Birthday
+    </div>
 </div>
 
 <div class="form-floating mb-3">
-  <input type="text" name="form_degree" class="form-control" id="ınputDegree" placeholder="Plase Write Degree">
+  <input type="text" name="form_degree" class="form-control" id="ınputDegree" placeholder="Plase Write Degree" required>
   <label for="ınputDegree">Degree</label>
+  <div class="invalid-feedback">
+  Plase Write Degree
+    </div>
 </div>
 </div>
 <div class="col-6">
 
 <div class="form-floating mb-3">
-  <input type="text" name="form_unit" class="form-control" id="ınputUnit "placeholder="Plase Write Unit">
+  <input type="text" name="form_unit" class="form-control" id="ınputUnit "placeholder="Plase Write Unit" required>
   <label for="ınputUnit">Unit</label>
+  <div class="invalid-feedback">
+  Plase Write Unit
+    </div>
 </div>
 <div class="form-floating mb-4">
-  <input type="text" name="form_number" class="form-control" id="ınputNumber" placeholder="Plase Write Phone Number">
+  <input type="text" name="form_number" class="form-control" id="ınputNumber" placeholder="Plase Write Phone Number" required>
   <label for="ınputNumber">Phone Number</label>
+  <div class="invalid-feedback">
+  Plase Write Phone Number
+    </div>
 </div>
 <div class="form-floating mb-3">
-  <input type="text" name="form_companyname" class="form-control" id="ınputCompanyName" placeholder="Plase Write Company Name">
+  <input type="text" name="form_companyname" class="form-control" id="ınputCompanyName" placeholder="Plase Write Company Name" required>
   <label for="ınputEmail">Company Name</label>
+  <div class="invalid-feedback">
+  Plase Write Company Name
+    </div>
 </div>
 <div class="form-floating mb-3">
-<textarea class="form-control" name="from_address" placeholder="Plase Write Address" id="floatingTextarea"></textarea>
+<textarea class="form-control" name="from_address" placeholder="Plase Write Address" id="floatingTextarea" required></textarea>
   <label for="ınputAddress">Address</label>
+  <div class="invalid-feedback">
+  Plase Write Address
+    </div>
 </div>
 <div class="d-grid col-md-12  mx-auto">
             <!--   <a class="btn btn-primary btn-lg" type="submit"  role="button">Add Person
