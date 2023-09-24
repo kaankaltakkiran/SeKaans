@@ -9,6 +9,7 @@
             <li class="nav-item"><a href="phoneNumberList.php" class="nav-link px-2">Phone Number List</a></li>
             <li class="nav-item"><a href="phoneNumberList.php" class="nav-link px-2">Request List</a></li>
             <li class="nav-item"><a href="announcementList.php" class="nav-link px-2">Announcement List</a></li>
+            <li class="nav-item"><a href="rss.php" class="nav-link px-2">News</a></li>
           </ul>
           <p class="text-center text-body-secondary">© 2023 SeKaans Company</p>
         </footer>

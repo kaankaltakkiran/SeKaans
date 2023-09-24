@@ -47,6 +47,9 @@
                 <a class="nav-link  <?= ($activePage == 'announcementList') ? 'active':''; ?>" href="announcementList.php">Announcement List</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link  <?= ($activePage == 'news') ? 'active':''; ?>" href="rss.php">News</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="logout.php">Logout</a>
               </li>
               <?php } ?>
