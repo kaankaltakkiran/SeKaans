@@ -27,7 +27,7 @@ require 'loginControl.php';
               <div class="card-body">
                 <h5 class="card-title">Person List</h5>
                 <p class="card-text">Only Admin Access</p>
-                <a href="#" class="btn btn-danger mt-3">Person Management</a>
+                <a href="personManagement.php" class="btn btn-danger mt-3">Person Management</a>
               </div>
             </div>
         </div>
@@ -47,7 +47,7 @@ require 'loginControl.php';
           <div class="card-body">
             <h5 class="card-title">Form List</h5>
             <p class="card-text">Only Admin Access</p>
-            <a href="#" class="btn btn-danger" style="margin-top: 35px;">Form Management</a>
+            <a href="formLoad.php" class="btn btn-danger" style="margin-top: 35px;">Form Management</a>
           </div>
         </div>
     </div>

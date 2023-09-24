@@ -1,5 +1,6 @@
 <?php
-$activeTitle="Food List";
+$activeTitle="Food List Management";
+$activePage='foodList';
 require 'ustHtml.php';
 require_once 'db.php';
 require 'loginControl.php';

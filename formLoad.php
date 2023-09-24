@@ -1,4 +1,6 @@
 <?php
+$activePage='formList';
+$activeTitle="Form Management";
 require 'ustHtml.php';
 require 'loginControl.php';
 
@@ -46,12 +48,12 @@ Only PDF, DOC and XLS files can be uploaded.
 <div class="container">
         <div class="row">
 <p class="text-center mt-3">
-  Sık kullanılan formlar sayfasına buradan dosya yüklemesi yapabilirsiniz.
+You can upload files to the frequently used forms page from here.
 </p>
 <div class="text-center">
 <form method="POST" action="" enctype="multipart/form-data">
 Select File: <input type="file" name="dosya"><br>
-  <input type="submit" class="btn btn-primary mt-3" value="Load">
+  <input type="submit" class="btn btn-primary mt-3" value="Load Form">
 </form>
 </div>
 </div>
