@@ -2,6 +2,7 @@
 $activeTitle="Form List";
 $activePage='formList';
 require 'ustHtml.php';
+require 'loginControl.php';
 
 $hedefKlasor = "./FORMLAR/";
 

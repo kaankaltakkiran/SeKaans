@@ -1,5 +1,6 @@
 <?php
 require 'ustHtml.php';
+require 'loginControl.php';
 
 //Post islemi varsa
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

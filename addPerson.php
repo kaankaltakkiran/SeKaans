@@ -2,6 +2,7 @@
 $activeTitle="Person List";
 $activePage='personList';
 require 'ustHtml.php';
+require 'loginControl.php';
 ?>
 
 <div class='row text-center offset-3 col-6 mt-3'>

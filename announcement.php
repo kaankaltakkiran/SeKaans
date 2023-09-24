@@ -2,6 +2,7 @@
 $activeTitle="Announcement";
 require 'ustHtml.php';
 require_once('db.php');
+require 'loginControl.php';
 
 $sql = "SELECT * FROM announcements WHERE announcementid = :id";
 $SORGU = $DB->prepare($sql);

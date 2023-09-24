@@ -2,6 +2,7 @@
 $activeTitle="Person List";
 $activePage='personList';
 require 'ustHtml.php';
+require 'loginControl.php';
 
 require_once('db.php');
 

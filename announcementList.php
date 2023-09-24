@@ -2,6 +2,7 @@
 $activeTitle="Announcement List";
 $activePage='announcementList';
 require 'ustHtml.php';
+require 'loginControl.php';
 ?>
 <div class="container">
   <div class="row justify-content-center">

@@ -1,7 +1,10 @@
 <?php
 $activeTitle="Phone Number List";
 $activePage='phoneNumberList';
-require 'ustHtml.php'; ?>
+require 'ustHtml.php';
+require 'loginControl.php';
+?>
+
 <div class="container">
 <div class='row text-center'>
   <h1 class='alert alert-primary mt-3'>Phone Number List</h1>

@@ -2,6 +2,7 @@
 $activeTitle="Person List";
 $activePage='personList';
 require 'ustHtml.php';
+require 'loginControl.php';
 
 //Sesion konusu gelince kendi idsini silememeli.
 

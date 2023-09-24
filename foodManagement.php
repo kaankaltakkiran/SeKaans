@@ -2,6 +2,7 @@
 $activeTitle="Food List";
 require 'ustHtml.php';
 require_once 'db.php';
+require 'loginControl.php';
 ?>
 <div class="container">
   <div class="row">

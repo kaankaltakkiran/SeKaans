@@ -3,6 +3,7 @@ $activeTitle="Request List";
 $activePage='requestList';
 require 'ustHtml.php';
 require_once('db.php');
+require 'loginControl.php';
 ?>
 
 <div class='row text-center offset-3 col-6 mt-3'>

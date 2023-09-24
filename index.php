@@ -2,6 +2,7 @@
 $activeTitle="SeKaans";
 $activePage='index';
 require 'ustHtml.php';
+require 'loginControl.php';
 //Session başlatma
 @session_start();
 ?>
