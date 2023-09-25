@@ -4,6 +4,7 @@ $activePage='foodList';
 require 'ustHtml.php';
 require_once 'db.php';
 require 'loginControl.php';
+require 'authorizationControl.php';
 ?>
 <div class="container">
   <div class="row">

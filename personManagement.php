@@ -4,6 +4,7 @@ $activeTitle="Person List Management";
 $activePage='personList';
 require 'ustHtml.php';
 require 'loginControl.php';
+require 'authorizationControl.php';
 
 ?>
 

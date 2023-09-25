@@ -3,6 +3,7 @@ $activePage='formList';
 $activeTitle="Form Management";
 require 'ustHtml.php';
 require 'loginControl.php';
+require 'authorizationControl.php';
 
 //Post islemi varsa
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
