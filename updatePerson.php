@@ -50,7 +50,7 @@ $user  = $users[0];
 ?>
 
     <div class='row text-center'>
-      <h1 class='alert alert-primary mt-3'>Add Record</h1>
+      <h1 class='alert alert-primary mt-3'>Update Record</h1>
     </div>
     <div class="container">
   <div class="row">
