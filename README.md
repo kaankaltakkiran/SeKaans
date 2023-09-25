@@ -1,43 +1,35 @@
 ﻿# SeKaans 
+Php,Mysql
+
 
 Welcome to **SeKaans Company**
 
-![Screenshot_1](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/643507aa-f829-4689-be4d-1a33e953e6f0)
-
-
-![Screenshot_2](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/559cdb4f-3398-4c59-a4da-11f69649275c)
-
-
-![Screenshot_3](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/f3e0bb22-cf73-44e1-8ac6-1900d56c90a2)
-
-
-![Screenshot_4](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/34e02b16-32dc-4547-a5d2-4ae82120cb75)
-
-
-![Screenshot_5](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/ca944039-9f4b-4a11-bf72-7725e0b5a051)
-
-
-![Screenshot_6](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/69ea13fd-787c-45ea-9760-2961164d66de)
-
-
-![Screenshot_7](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/15bfc224-42d0-4486-b4ff-1f48c27c3d75)
-
-
-![Screenshot_8](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/ea49cbe2-631f-44dd-8832-fd806b2bed71)
-
-
-![Screenshot_9](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/2d3b2301-7bc4-443f-b97b-7fccd01f41c2)
-
-
-![Screenshot_10](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/01281155-bb6e-4591-9a2b-addabd9fcb65)
-
-
-![Screenshot_12](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/703eef0d-8cdf-4c14-99bb-81e7be044a14)
-
-
-![Screenshot_11](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/a3378df4-b9a0-469f-a2c5-12491364909e)
-
-
-![Screenshot_13](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/6371f456-be48-44b9-9637-9b81fb470875)
-
+## Register
+![Register](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/14623d5c-efc8-461b-963f-3789c20a59a4)
+## Login
+![Login-1](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/1230d05e-9701-462b-9d0e-1a1353c33781)
+## User Login
+![User home](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/433a1f5a-88be-4862-bb02-83eeac65dfc7)
+## Person List
+![Person List](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/870754b5-e8f7-4858-8425-8ea190b705f1)
+## Food List
+![Food List](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/24497e1c-be96-4aee-9e2d-3e896a672e4a)
+## Food List
+![Form List](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/5897817a-5835-4d75-9eca-602711923c5e)
+## Phone Number List
+![Phone Number -2](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/fe26a6a3-8466-46c0-b85e-3796ac50f8ca)
+## Request List
+![Request List](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/11a34cac-4abd-4960-a935-87d13490caa7)
+## Announcements List
+![Announcements List](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/fb03e5ce-c329-4131-aab9-281ecc802532)
+## News List
+![news](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/578cf158-8a1c-484f-9050-5ff6257eb8b1)
+## Admin Home Page
+![Admin home](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/cd2f5c1c-7501-4906-ad65-0c81a2129b30)
+## Person Management
+![Person Management](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/51dd5ceb-5426-41a8-a8cd-405e9a1774a0)
+## Food Management
+![Food Management](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/22901d7c-7c47-4aa3-bf61-e5149dbfa42f)
+## Form Management
+![Form Management](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/3a3de0c8-b26f-437b-90e7-4839a14ac75d)
 
