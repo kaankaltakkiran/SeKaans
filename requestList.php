@@ -18,7 +18,7 @@ if (isset($_POST['talep_form'])) {
   $sql = "INSERT INTO requests 
           SET request = :talep_form,
           requestsdate = :taleptarihi,
-         /*  requesting = :talepeden, */
+           requesting = :talepeden, 
           targetunit = :hedefbirim_form,
           priority = :oncelik_form,
           status = 0
@@ -27,7 +27,7 @@ if (isset($_POST['talep_form'])) {
 
   $SORGU->bindParam(':talep_form',  $_POST['talep_form']);
   $SORGU->bindParam(':taleptarihi', date("Y-m-d H:i:s"));
-/*   $SORGU->bindParam(':talepeden', $_SESSION['id']); */
+   $SORGU->bindParam(':talepeden', $_SESSION['id']); 
   $SORGU->bindParam(':hedefbirim_form', $_POST['hedefbirim_form']);
   $SORGU->bindParam(':oncelik_form', $_POST['oncelik_form']);
 

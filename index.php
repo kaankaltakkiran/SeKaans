@@ -54,11 +54,11 @@ require 'loginControl.php';
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 " style="width: 18rem;">
-        <img src="./public/img/phone.jpeg" class="card-img-top " alt="...">
+        <img src="./public/img/Req Management.jpg" class="card-img-top " alt="...">
         <div class="card-body">
-          <h5 class="card-title">Phone Number List</h5>
+          <h5 class="card-title">Request List</h5>
           <p class="card-text">Only Admin Access</p>
-          <a href="phoneNumberManagement.php" class="btn btn-danger mt-1">Phone Number Management</a>
+          <a href="requestManagement.php" class="btn btn-danger mt-5">Request Management</a>
         </div>
       </div>
   </div>
