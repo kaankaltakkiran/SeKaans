@@ -2,6 +2,7 @@
 $activeTitle="Login";
 $activePage='login';
 require 'ustHtml.php';
+$connect = mysqli_connect("localhost", "root", "root", "sekaans");  
 ?>
 <?php
 //Session başlatma
@@ -20,42 +21,73 @@ if (isset($_POST['eposta_form'])) {
   // 1.DB'na bağlan
   // 2.SQL hazırla ve çalıştır
   // 3.Gelen sonuç 1 satırsa GİRİŞ BAŞARILI değilse, BAŞARISIZ
-  require_once('db.php');
 
-  $sql = "SELECT * FROM users WHERE email = :eposta_form AND password = :parola_form";
-  $SORGU = $DB->prepare($sql);
-
-  $SORGU->bindParam(':eposta_form', $_POST['eposta_form']);
-  $SORGU->bindParam(':parola_form', $_POST['parola_form']);
-
-  $SORGU->execute();
-
-  $CEVAP = $SORGU->fetchAll(PDO::FETCH_ASSOC);
-/*   var_dump($CEVAP);
-   echo "Gelen cevap " .  count($CEVAP) . " adet satırdan oluşuyor"; */
-  if (count($CEVAP) == 1) {
-    //echo "<h1>GİRİŞ BAŞARILI!</h1>";
-    //Session başlatma
-    @session_start();
-    $_SESSION['isLogin'] = 1;
-    $_SESSION['adsoyad'] = $CEVAP[0]['name']; // Kullanıcının adını al
-    $_SESSION['id'] = $CEVAP[0]['userid']; // Kullanıcının ID'sini al
-    $_SESSION['rol'] = $CEVAP[0]['role']; // Kullanıcının ROL'ünü al
-    header("location: index.php");
-    die();
-  } else {
-    echo '
-    <div class="container">
-    
-<div class="alert mt-3 text-center alert-danger alert-dismissible fade show" role="alert">
-INCORRECT EMAIL or PASSWORD!...
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-</div>
-';
-    //header("location: hata.php");
-    //die();
-  }
+  if(empty($_POST["eposta_form"]) || empty($_POST["parola_form"]))  
+  {  
+       echo '
+                      <div class="container">
+                      
+                  <div class="alert mt-3 text-center alert-info alert-dismissible fade show" role="alert">
+                  Both Fields are required...
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                  </div>
+                  ';    
+  }  
+  else  
+  {  
+       $useremail = mysqli_real_escape_string($connect, $_POST["eposta_form"]);  
+       $userpassword = mysqli_real_escape_string($connect, $_POST["parola_form"]);  
+       $query = "SELECT * FROM users WHERE email = '$useremail'";  
+       $result = mysqli_query($connect, $query);  
+       if(mysqli_num_rows($result) > 0)  
+       {  
+            while($row = mysqli_fetch_array($result))  
+            {  
+                 if(password_verify($userpassword, $row["password"]))  
+                 {  
+                      //return true;  
+                     //echo "<h1>GİRİŞ BAŞARILI!</h1>";
+                     //Session başlatma
+                     @session_start();
+                     $_SESSION['isLogin'] = 1;
+                     $_SESSION['adsoyad'] = $row['name']; // Kullanıcının adını al
+                     $_SESSION['id'] = $row['userid']; // Kullanıcının ID'sini al
+                     $_SESSION['rol'] = $row['role']; // Kullanıcının ROL'ünü al
+                    header("location: index.php");
+                    die();    
+                 }  
+                 else  
+                 {  
+                      //return false;  
+                      //echo $userpassword;
+                      //echo $row["password"];
+                      echo '
+                      <div class="container">
+                      
+                  <div class="alert mt-3 text-center alert-danger alert-dismissible fade show" role="alert">
+                  PASSWORDS NOT MATCH!!!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                  </div>
+                  ';  
+                 }  
+            }  
+       }   
+       else  
+       {  
+        echo '
+        <div class="container">
+        
+    <div class="alert mt-3 text-center alert-danger alert-dismissible fade show" role="alert">
+    INCORRECT EMAIL or PASSWORD!...
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    </div>
+    ';
+       }  
+  }  
+  
 }
 ?>
 

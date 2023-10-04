@@ -104,7 +104,8 @@ if (isset($_POST['form_name'])) {
   
   $personName = $_POST['form_name'];
   $personEmail = $_POST['form_email'];
-   $personPassword = $_POST['form_password']; 
+   $personPassword = $_POST['form_password'];
+   $personPassword = password_hash($personPassword, PASSWORD_DEFAULT);   
    $personDate = $_POST['form_date']; 
   $personDegree = $_POST['form_degree'];
   $personUnit = $_POST['form_unit'];
@@ -113,12 +114,12 @@ if (isset($_POST['form_name'])) {
    $personAddress = $_POST['from_address']; 
  
   //sql sorgusu
-  $sql = "INSERT INTO users (name, email,degree,unit,phonenumber,password,companyname,address,date) VALUES (:form_name, :form_email,:form_degree,:form_unit,:form_number,:form_password,:form_companyname,:form_address,:form_date)";
+  $sql = "INSERT INTO users (name, email,degree,unit,phonenumber,password,companyname,address,date) VALUES (:form_name, :form_email,:form_degree,:form_unit,:form_number,'$personPassword',:form_companyname,:form_address,:form_date)";
   $SORGU = $DB->prepare($sql);
   //post verilerini sql sorgusuna bağla
   $SORGU->bindParam(':form_name',  $personName);  
    $SORGU->bindParam(':form_email', $personEmail);
-  $SORGU->bindParam(':form_password', $personPassword);  
+  /* $SORGU->bindParam(':form_password', $personPassword);   */
   $SORGU->bindParam(':form_date', $personDate);  
   $SORGU->bindParam(':form_degree',  $personDegree);
   $SORGU->bindParam(':form_unit',  $personUnit);
