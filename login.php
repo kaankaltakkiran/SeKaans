@@ -2,7 +2,8 @@
 $activeTitle="Login";
 $activePage='login';
 require 'ustHtml.php';
-$connect = mysqli_connect("localhost", "root", "root", "sekaans");  
+$connect = mysqli_connect("localhost", "root", "root", "sekaans");
+$connect->set_charset("utf8mb4");
 ?>
 <?php
 //Session başlatma
