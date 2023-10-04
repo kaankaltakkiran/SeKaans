@@ -66,7 +66,7 @@ require 'loginControl.php';
         <div class="row g-4">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 " style="width: 18rem;">
-              <img src="./public/img/person.png" class="card-img-top" alt="...">
+              <img src="./public/img/person.png" class="card-img-top" alt="Person img">
               <div class="card-body">
                 <h5 class="card-title">Person List</h5>
                 <p class="card-text">Only Admin Access</p>
@@ -76,7 +76,7 @@ require 'loginControl.php';
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card h-100 " style="width: 18rem;">
-            <img src="./public/img/food.jpg" class="card-img-top" alt="...">
+            <img src="./public/img/food.jpg" class="card-img-top" alt="Food img">
             <div class="card-body">
               <h5 class="card-title">Food List</h5>
               <p class="card-text">Only Admin Access</p>
@@ -86,7 +86,7 @@ require 'loginControl.php';
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="card h-100 " style="width: 18rem;">
-          <img src="./public/img/form.jpg" class="card-img-top" alt="...">
+          <img src="./public/img/form.jpg" class="card-img-top" alt="Form img">
           <div class="card-body">
             <h5 class="card-title">Form List</h5>
             <p class="card-text">Only Admin Access</p>
@@ -96,7 +96,7 @@ require 'loginControl.php';
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100 " style="width: 18rem;">
-        <img src="./public/img/Req Management.jpg" class="card-img-top " alt="...">
+        <img src="./public/img/Req Management.jpg" class="card-img-top " alt="Request img">
         <div class="card-body">
           <h5 class="card-title">Request List</h5>
           <p class="card-text">Only Admin Access</p>
