@@ -26,7 +26,7 @@ require 'loginControl.php';
 
     require_once('db.php');
 
-    $SORGU = $DB->prepare("SELECT * FROM LIMIT 10 announcements 
+    $SORGU = $DB->prepare("SELECT * FROM  announcements 
                            WHERE CURDATE() BETWEEN startingdate AND enddate
                            ORDER BY startingdate DESC");
     $SORGU->execute();

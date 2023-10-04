@@ -36,7 +36,7 @@ if (isset($_POST['talep_form'])) {
   <div class="container">
         <div class="row">
       <div class="alert text-center alert-success alert-dismissible fade show" role="alert">
-       Talebiniz kaydedildi...
+      Your request has been saved...
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
       </div>
