@@ -4,7 +4,7 @@ require 'ustHtml.php';
 require_once('db.php');
 require 'loginControl.php';
 
-$sql = "SELECT * FROM announcements WHERE announcementid = :id";
+$sql = "SELECT * FROM announcements LIMIT 10  WHERE announcementid = :id";
 $SORGU = $DB->prepare($sql);
 $SORGU->bindParam(':id',$_GET['id']);
 $SORGU->execute();
