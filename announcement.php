@@ -3,7 +3,8 @@ $activeTitle="Announcement";
 require 'ustHtml.php';
 require_once('db.php');
 require 'loginControl.php';
-
+?>
+<?php
 $sql = "SELECT * FROM announcements   WHERE announcementid = :id";
 $SORGU = $DB->prepare($sql);
 $SORGU->bindParam(':id',$_GET['id']);
@@ -30,7 +31,7 @@ echo "<br><hr>";
 echo "
 <div class='container'>
 <div class='row text-center'>
-<i class='text-muted'>" . date("d.m.Y", strtotime($announcement[0]['startingdate'])) . " Tarihinde yayınlanmıştır.</i>
+<i class='text-muted'>" . date("d.m.Y", strtotime($announcement[0]['startingdate'])) . " Published on.</i>
 </div>
 </div>
 ";
