@@ -1,6 +1,8 @@
 ﻿# SeKaans 
 Php,Mysql
 
+Sitenin canlı linki:**sekaans.infinityfreeapp.com**
+
 
 Welcome to **SeKaans Company**
 
