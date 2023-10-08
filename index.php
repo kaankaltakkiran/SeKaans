@@ -111,7 +111,7 @@ require 'loginControl.php';
       <?php } ?>
 
 <?php
-require 'altHtml.php';
+require 'bottom.php';
 ?>
 
 

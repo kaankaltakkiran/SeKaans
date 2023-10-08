@@ -57,5 +57,5 @@ require 'loginControl.php';
         
     }
     echo "</table>";
-    require 'altHtml.php';
+    require 'bottom.php';
 ?>
