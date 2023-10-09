@@ -67,7 +67,7 @@ if (isset($_POST['eposta_form'])) {
                       <div class="container">
                       
                   <div class="alert mt-3 text-center alert-danger alert-dismissible fade show" role="alert">
-                  PASSWORDS NOT MATCH!!!
+                  INCORRECT EMAIL or PASSWORD MATCH!...
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                   </div>
                   </div>
