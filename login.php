@@ -91,33 +91,38 @@ if (isset($_POST['eposta_form'])) {
   
 }
 ?>
-
-<div class='row text-center offset-3 col-6 mt-3'>
+<div class="container">
+<div class='row text-center justify-content-center  mt-3'>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
   <h1 class='alert alert-primary'>Login</h1>
+</div>
 </div>
 <div class="container">
   <div class="row">
-
-
 <form method="POST">
-<div class="col-6 offset-3">
+  <div class="row justify-content-center">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
   <div class="form-floating mb-3">
   <input type="text" name="eposta_form" class="form-control" id="ınputEmail" placeholder="Plase Write Email">
   <label for="ınputEmail">Email</label>
+  </div>
 </div>
 </div>
-<div class="col-6 offset-3">
+<div class="row justify-content-center">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 <div class="form-floating mb-3">
   <input type="password" name="parola_form" class="form-control" id="ınputPassword" placeholder="Plase Write Email">
   <label for="ınputPassword">Password</label>
 </div>
 </div>
-<div class="d-grid col-md-6  mx-auto">
+</div>
+<div class="d-grid col-12 col-sm-6 col-md-4 col-lg-3  mx-auto">
             <!--   <a class="btn btn-primary btn-lg" type="submit"  role="button">Add Person
               <i class="bi bi-send"></i>
               </a> -->
               <button type="submit" class="btn btn-primary">Sıgn In</button>
             </div>
+</div>
 </div>
 </div>
 

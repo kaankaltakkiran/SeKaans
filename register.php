@@ -3,9 +3,12 @@ $activeTitle="Register";
 $activePage='register';
 require 'ustHtml.php';
 ?>
-
-<div class='row text-center offset-3 col-6 mt-3'>
+<div class="container">
+<div class='row text-center justify-content-center  mt-3'>
+  <div class="col-12 col-md-8 col-lg-6">
   <h1 class='alert alert-primary'>Register</h1>
+  </div>
+</div>
 </div>
 <?php 
 if (isset($_POST['form_name'])) {
@@ -14,9 +17,9 @@ if (isset($_POST['form_name'])) {
 ?>
 <div class="container">
 <form method="POST" class="needs-validation"novalidate>
-  <div class="row">
+<div class="row justify-content-center">
     
-    <div class="col-6">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
    
   <div class="form-floating mb-3">
   <input type="text" name="form_name" class="form-control" id="ınputName" placeholder="Plase Write Name" required>
@@ -55,7 +58,7 @@ if (isset($_POST['form_name'])) {
     </div>
 </div>
 </div>
-<div class="col-6">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 
 <div class="form-floating mb-3">
   <input type="text" name="form_unit" class="form-control" id="ınputUnit "placeholder="Plase Write Unit" required>
@@ -85,7 +88,7 @@ if (isset($_POST['form_name'])) {
   Plase Write Address
     </div>
 </div>
-<div class="d-grid col-md-12  mx-auto">
+<div class="d-grid col-12    mx-auto">
             <!--   <a class="btn btn-primary btn-lg" type="submit"  role="button">Add Person
               <i class="bi bi-send"></i>
               </a> -->
@@ -132,5 +135,5 @@ if (isset($_POST['form_name'])) {
   ?>
 
   <?php
-  require 'altHtml.php';
+  require 'bottom.php';
   ?>
