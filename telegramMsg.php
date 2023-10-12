@@ -1,8 +1,8 @@
 <?php
 function TelegramdanMesajGonder($Mesaj)
 {
-  $Token    = "6447335779:AAGmMSSbMgzgDYj-q_095jc-L2mc4KLqXp4";
-  $AliciAdi = "@yazkamp2023kaan";
+  $Token    = ""; // ENV dosyasından alınacak
+  $AliciAdi = "";// ENV dosyasından alınacak
 
   $curl = curl_init();
 
