@@ -120,4 +120,4 @@ if (isset($_POST['talepid_form'])) {
 </div>
 
 
-<?php require 'altHtml.php'; ?>
+<?php require 'bottom.php'; ?>

@@ -4,6 +4,7 @@ $activePage='requestList';
 require 'ustHtml.php';
 require_once('db.php');
 require 'loginControl.php';
+require 'telegramMsg.php';
 ?>
 
 <div class='row text-center offset-3 col-6 mt-3'>
@@ -13,6 +14,7 @@ require 'loginControl.php';
 <?php
 //Session öğrenince kim giriş yaptıysa otomatik onun idsini al
 if (isset($_POST['talep_form'])) {
+  TelegramdanMesajGonder("New request has been created. Please check the system.");
 
 //Talep kaydetme işlemi
   $sql = "INSERT INTO requests 
