@@ -13,6 +13,7 @@ require 'loginControl.php';
           <h1 class="text-center text-danger mt-1">Welcome</h1>
           <h3 class="text-center text-muted">Name: <?php echo $_SESSION['adsoyad']; ?></h3>
           <p class="text-center text-danger"><?php
+           date_default_timezone_set('Europe/Istanbul'); // Türkiye saat dilimine göre tarih ve saat ayarla
           $date_and_time = date("Y-m-d H:i:s"); // Yıl-Ay-Gün Saat:Dakika:Saniye formatında tarih ve saat
          echo "Date And Time: " . $date_and_time;
 ?></p>
