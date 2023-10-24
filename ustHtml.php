@@ -51,6 +51,9 @@
                 <a class="nav-link  <?= ($activePage == 'news') ? 'active':''; ?>" href="rss.php">News</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link  <?= ($activePage == 'imageDisplay') ? 'active':''; ?>" href="imageDisplay.php">Image Load</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="logout.php">Logout</a>
               </li>
               <?php } ?>
