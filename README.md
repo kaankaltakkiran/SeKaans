@@ -3,6 +3,7 @@ Php,Mysql
 
 Sitenin canlı linki: [SeKaans Company](http://sekaans.infinityfreeapp.com)
 
+composer:A Dependency Manager for PHP npm gibi paket yüklemek için
 
 Welcome to **SeKaans Company**
 
