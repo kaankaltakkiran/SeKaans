@@ -3,7 +3,6 @@ $activePage='imageDisplay';
 $activeTitle="Image Form";
 require 'ustHtml.php';
 require 'loginControl.php';
-require 'authorizationControl.php';
 @session_start();
 ?>
 <?php if($_SESSION['rol']==2){ ?>
