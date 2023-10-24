@@ -1,5 +1,5 @@
 <?php
-function TelegramdanMesajGonder($Mesaj)
+function SendTelegramMsg($Mesaj)
 {
   $Token    = ""; // ENV dosyasından alınacak
   $AliciAdi = "";// ENV dosyasından alınacak
