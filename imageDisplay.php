@@ -12,7 +12,7 @@ require 'loginControl.php';
 <form action="uploadImage.php" class="text-center mt-4" method="post" enctype="multipart/form-data">
     Select Image File to Upload:
     <input type="file" name="file">
-    <input type="submit" class="btn btn-primary" name="submit" value="Upload">
+    <button type="submit" class="btn btn-primary" name="submit"> Upload <i class="bi bi-upload"></i> </button>
 </form>
 </div>
 </div>

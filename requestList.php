@@ -14,7 +14,7 @@ require 'telegramMsg.php';
 <?php
 //Session öğrenince kim giriş yaptıysa otomatik onun idsini al
 if (isset($_POST['talep_form'])) {
-  TelegramdanMesajGonder("New request has been created. Please check the system.");
+  SendTelegramMsg("New request has been created. Please check the system.");
 
 //Talep kaydetme işlemi
   $sql = "INSERT INTO requests 
@@ -81,7 +81,9 @@ foreach ($birimler as $birim) {
       <option value='2'>Critical</option>
     </select>
   </p>
-  <p></p><input type="submit" class="btn btn-primary" value="Send Request"></p>
+  <p></p>
+  <button type="submit" class="btn btn-primary">Send Request <i class="bi bi-send"></i> </button>
+</p>
 </form>
 
 </div>

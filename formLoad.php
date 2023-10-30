@@ -54,7 +54,7 @@ You can upload files to the frequently used forms page from here.
 <div class="text-center">
 <form method="POST" action="" enctype="multipart/form-data">
 Select File: <input type="file" name="dosya"><br>
-  <input type="submit" class="btn btn-primary mt-3" value="Load Form">
+  <button type="submit" class="btn btn-primary mt-3">Load Form <i class="bi bi-arrow-clockwise"></i> </button>
 </form>
 </div>
 </div>

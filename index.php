@@ -71,7 +71,9 @@ require 'loginControl.php';
               <div class="card-body">
                 <h5 class="card-title">Person List</h5>
                 <p class="card-text">Only Admin Access</p>
-                <a href="personManagement.php" class="btn btn-danger mt-3">Person Management</a>
+                <a href="personManagement.php" class="btn btn-danger mt-3">Person Management
+                <i class="bi bi-send-fill"></i>
+                </a>
               </div>
             </div>
         </div>
@@ -81,7 +83,9 @@ require 'loginControl.php';
             <div class="card-body">
               <h5 class="card-title">Food List</h5>
               <p class="card-text">Only Admin Access</p>
-              <a href="foodManagement.php" class="btn btn-danger mt-1">Food Management</a>
+              <a href="foodManagement.php" class="btn btn-danger mt-1">Food Management
+              <i class="bi bi-send-fill"></i>
+              </a>
             </div>
           </div>
       </div>
@@ -91,7 +95,8 @@ require 'loginControl.php';
           <div class="card-body">
             <h5 class="card-title">Form List</h5>
             <p class="card-text">Only Admin Access</p>
-            <a href="formLoad.php" class="btn btn-danger" style="margin-top: 35px;">Form Management</a>
+            <a href="formLoad.php" class="btn btn-danger" style="margin-top: 35px;">Form Management
+            <i class="bi bi-send-fill"></i></a>
           </div>
         </div>
     </div>
@@ -101,7 +106,9 @@ require 'loginControl.php';
         <div class="card-body">
           <h5 class="card-title">Request List</h5>
           <p class="card-text">Only Admin Access</p>
-          <a href="requestManagement.php" class="btn btn-danger mt-5">Request Management</a>
+          <a href="requestManagement.php" class="btn btn-danger mt-5">Request Management
+          <i class="bi bi-send-fill"></i>
+          </a>
         </div>
       </div>
   </div>
@@ -113,7 +120,7 @@ require 'loginControl.php';
       <?php if ($_SESSION['rol'] == 1) { ?>
  <!--  Footer Start -->
  <div class="container-fluid">
-        <footer class="py-3 my-4 bg-secondary-subtle fixed-bottom ">
+        <footer class="py-3 bg-secondary-subtle fixed-bottom ">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="index.php" class="nav-link px-2 ">Home</a></li>
             <li class="nav-item"><a href="personList.php" class="nav-link px-2">Person List</a></li>
@@ -160,7 +167,7 @@ require 'loginControl.php';
         <?php if ($_SESSION['rol'] == 2) { ?>
  <!--  Footer Start -->
  <div class="container-fluid">
-        <footer class="py-3 my-4 bg-secondary-subtle">
+        <footer class="py-3  bg-secondary-subtle">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="index.php" class="nav-link px-2 ">Home</a></li>
             <li class="nav-item"><a href="personList.php" class="nav-link px-2">Person List</a></li>

@@ -122,7 +122,9 @@ if (isset($_POST['eposta_form'])) {
             <!--   <a class="btn btn-primary btn-lg" type="submit"  role="button">Add Person
               <i class="bi bi-send"></i>
               </a> -->
-              <button type="submit" class="btn btn-primary">Sıgn In</button>
+              <button type="submit" class="btn btn-primary">Sıgn In
+              <i class="bi bi-send-fill"></i>
+              </button>
             </div>
 </div>
 </div>

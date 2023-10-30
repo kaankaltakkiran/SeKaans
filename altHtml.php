@@ -1,6 +1,6 @@
  <!--  Footer Start -->
  <div class="container-fluid">
-        <footer class="py-3 my-4 bg-secondary-subtle fixed-bottom ">
+        <footer class="py-3  bg-secondary-subtle fixed-bottom ">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="index.php" class="nav-link px-2 ">Home</a></li>
             <li class="nav-item"><a href="personList.php" class="nav-link px-2">Person List</a></li>

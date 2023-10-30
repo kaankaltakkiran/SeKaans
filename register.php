@@ -92,7 +92,7 @@ if (isset($_POST['form_name'])) {
             <!--   <a class="btn btn-primary btn-lg" type="submit"  role="button">Add Person
               <i class="bi bi-send"></i>
               </a> -->
-              <button type="submit" class="btn btn-primary">Sıgn Up</button>
+              <button type="submit" class="btn btn-primary">Sıgn Up <i class="bi bi-send"></i></button>
             </div>
 </div>
 </div>

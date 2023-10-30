@@ -78,7 +78,7 @@ $MENU = $SORGU->fetchAll(PDO::FETCH_ASSOC);
       </tr>
     </tbody>
   </table>
-  <input type="submit" class="btn btn-primary" value="Save Menu">
+  <button type="submit" class="btn btn-primary">Save Menu <i class="bi bi-save"></i> </button>
 </form>
 </div>
 </div>

@@ -12,10 +12,10 @@ require 'loginControl.php';
 <form method="GET">
   <p class="text-center">
   Enter Name, Unit Or Phone Number: <input type="text" name="name_form">
-    <input type="submit" value="Search" class="btn btn-primary">
+  <button type="submit" value="Search" class="btn btn-primary">Search <i class="bi bi-search"></i></button> 
   </p>
-
 </form>
+
 <table class="table table-bordered table-striped">
   <thead>
     <tr>
