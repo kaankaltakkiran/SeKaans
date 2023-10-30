@@ -60,6 +60,9 @@ Welcome to **SeKaans Company**
 ![Request-2](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/adc75ca8-e5bb-4779-838f-018878f09a7c)
 ##Request List
 ![Request-3](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/31de1832-9ded-4c92-983f-5db745810158)
+##Request List
+![Request-4](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/851b6345-c6d9-42bf-8a63-cd5a2b066a1e)
+
 ##Announcements
 ![Announcements-1](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/7a9e9c6f-4941-4556-a533-260b4c57de1b)
 ##Announcements
@@ -71,6 +74,9 @@ Welcome to **SeKaans Company**
 ![News-1](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/a9189e6f-7da3-407f-8622-7cdeb4486830)
 ##Image Form
 ![İmage-1](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/a2485e6f-701e-4501-b5c5-e144652c873b)
+##Image Form
+![İmage-2](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/81e6b3b8-5d98-4243-8178-bebbeff4f542)
+
 
 
 
