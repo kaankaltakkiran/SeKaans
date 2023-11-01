@@ -7,6 +7,11 @@ composer:A Dependency Manager for PHP npm gibi paket yüklemek için
 
 Welcome to **SeKaans Company**
 
+
+##404 page
+![404 Page](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/cceefecb-abc8-4f89-8106-71740c27b71a)
+
+
 ## Register
 ![Register-1](https://github.com/kaankaltakkiran/SeKaans/assets/98158194/56e9437b-4f8b-489f-af45-9ca1b4104f13)
 
